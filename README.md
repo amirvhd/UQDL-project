@@ -22,3 +22,7 @@ Model_iris has the same structure as Model.py
 
 In Iris.ipynb:
 After loading and splitting the data, 8 different models are defined. The best cross-entropy loss for each case is saved. The training process for each model is repeated for 10 different random seeds. The results are saved in "results.npy". So this file contains 80 different values for 10 seeds and 8 models. The mean values over seeds for all models (8 different values) are illustrated.  
+
+The "bayesianize.bayesianize_" function is used to convert the layers to bayesian layers. You can find the details for this function in the following repository:
+
+https://github.com/microsoft/bayesianize
